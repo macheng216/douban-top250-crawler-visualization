@@ -1,0 +1,10 @@
+# 虚拟环境，不上传
+.venv/
+__pycache__/
+*.pyc
+# 生成的CSV数据（可选：不想上传数据就加这两行）
+output/*.csv
+douban_top250.csv
+# PyCharm配置缓存
+.idea/
+*.ipynb_checkpoints
