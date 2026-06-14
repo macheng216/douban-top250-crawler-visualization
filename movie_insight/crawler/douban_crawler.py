@@ -62,7 +62,7 @@ class DoubanTop250Crawler(BaseCrawler):
                 num = float(bo_match.group(1))
                 unit = bo_match.group(2)
                 if unit == '亿':
-                    num *= 10000  # 统一转化为万为单位？或者存为float亿。我们存为亿为单位的数字
+                    pass
                 elif unit == '万':
                     num /= 10000
                 # 如果不带单位则默认是万？实际情况多数带单位，这里简单处理
